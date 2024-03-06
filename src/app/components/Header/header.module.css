@@ -21,7 +21,6 @@
   grid-template-columns: 1.5fr 2fr;
   gap: 20px;
   padding: 5rem 0rem;
-  border-bottom: 1px solid #ddd;
 }
 .headerContent {
   color: var(--text-color);
@@ -42,10 +41,10 @@
   animation: ripple 2s linear infinite;
   animation-delay: 3s;
 }
-/* 
+
 .carousel {
   width: 100%;
-} */
+}
 @keyframes ripple {
   0% {
     box-shadow: 0 0 0 0.1rem rgba(35, 206, 107, 0.1);
