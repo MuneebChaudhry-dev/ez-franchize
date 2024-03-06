@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import styles from './navbar.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import userAvatar from '@/app/asstes/male-user.png';
+import userAvatar from '@/app/assets/male-user.png';
 import { useRouter } from 'next/navigation';
 const Navbar = () => {
   const [showProfileMenu, setShowProfileMenu] = useState(false);

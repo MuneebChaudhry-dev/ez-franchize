@@ -2,7 +2,7 @@
   position: relative;
   width: 150px;
   height: 300px;
-  margin: 50px auto;
+  margin: 100px auto;
   perspective: 3000px;
 }
 .imageContainer {
