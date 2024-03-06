@@ -1,10 +1,14 @@
 import React from 'react'
+import styles from "./header.module.css";
+import Navbar from '../Navbar';
 
 const Header = () => {
   return (
-    <div>
-      
+    <section className={styles.header}>
+      <Navbar/>
+    <div className=''>
     </div>
+    </section>
   )
 }
 

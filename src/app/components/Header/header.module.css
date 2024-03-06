@@ -1,0 +1,7 @@
+.header{
+  background: linear-gradient(180deg, #006AFF -30.22%, var(--secondary-color) 12.62%, var(--primary-color) 80.23%);
+  height: 90vh;
+  width: 100%;
+  padding-top: 40px;
+}
+
