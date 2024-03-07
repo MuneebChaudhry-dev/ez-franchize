@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EZ-Franchise
+
+A platform provide the data of different Franchises to invest
 
 ## Getting Started
 
-First, run the development server:
+These guidelines will assist you in obtaining a copy of the project, enabling its execution on your local machine for development purposes. Refer to deployment notes for instructions on deploying the project on a live system.
+
+## Prerequisites
+
+- **Node.js > 16**
+
+  - Download and install the latest version of Node.js from [nodejs.org](https://nodejs.org).
+  - _(Recommended)_ Use [nvm](https://github.com/nvm-sh/nvm) for version management.
+
+- **Package Manager: npm or yarn**
+  - **npm:** It comes bundled with Node.js. Verify its installation by running `npm -v` in your terminal.
+  - **yarn:** If you prefer using yarn, install it globally by following the instructions on [yarnpkg.com](https://yarnpkg.com).
+
+## Project Installation and Execution
+
+1. Clone the repo in your desired directory
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git@github.com:MuneebChaudhry-dev/ez-franchize.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Intall the dependencies of project by using following script
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn intall
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Run the project using the provided script
 
-## Learn More
+```bash
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [NextJS](https://react.dev/) - The frontend framework used
+- [yarn](https://yarnpkg.com/) - Pacakge Manager
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributors
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| Contributor  | Role               |
+| ------------ | ------------------ |
+| Muneeb Ahmad | Frontend Developer |
