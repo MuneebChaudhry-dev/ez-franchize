@@ -1,0 +1,93 @@
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  width: 50px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  width: 50px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  margin-top: 50px;
+  opacity: 0;
+  transition-duration: 1s;
+  transition-property: opacity, transform;
+  transition-timing-function: ease;
+  transform: translateX(-100%);
+  overflow-x: hidden;
+}
+
+.slideItem {
+  padding: 2rem 1rem;
+  background: var(--accent-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+  gap: 1px;
+  width: 350px;
+  border-radius: 10px;
+}
+.slideThumbnail {
+  background: var(--primary-color);
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.playBtn {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(6, 48, 136, 0.1);
+  border-radius: 100%;
+  z-index: 10px;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.next {
+  transform: translateX(100%);
+}
+
+.prev {
+  transform: translateX(-100%);
+}

@@ -1,0 +1,77 @@
+.navbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarMenu {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav > ul {
+  list-style: none;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav > ul > li {
+  position: relative;
+}
+
+.nav > ul > li::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+.nav > ul > li:hover::before {
+  width: 100%;
+}
+
+.activeRoute {
+  border: 1px solid var(--accent-color);
+}
+.navbarProfile {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-color);
+}
+.separator {
+  height: 20px;
+  border-left: 1px solid gray;
+  margin: 0 10px;
+}
+.userAvatar {
+  position: relative;
+  cursor: pointer;
+}
+.userProfile {
+  position: absolute;
+  margin-top: 1px;
+  right: 1px;
+  background: var(--text-color);
+  border-radius: 10px;
+  padding: 1rem;
+  color: var(--primary-color);
+}
+.userProfile > div > a:hover {
+  color: var(--secondary-color);
+}
+.userProfile > div {
+  padding: 0.5rem 2.5rem;
+}

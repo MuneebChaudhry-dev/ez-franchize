@@ -1,0 +1,58 @@
+.wrapper {
+  position: relative;
+  width: 150px;
+  height: 300px;
+  margin: 100px auto;
+  perspective: 3000px;
+}
+.imageContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  transform-style: preserve-3d;
+  animation: animate 40s steps(1000, end) infinite;
+}
+.singleImage {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  transform-origin: center;
+}
+
+.image0 {
+  transform: rotateY(0deg) translateZ(250px);
+}
+.image1 {
+  transform: rotateY(40deg) translateZ(250px);
+}
+.image2 {
+  transform: rotateY(80deg) translateZ(250px);
+}
+.image3 {
+  transform: rotateY(120deg) translateZ(250px);
+}
+.image4 {
+  transform: rotateY(160deg) translateZ(250px);
+}
+.image5 {
+  transform: rotateY(200deg) translateZ(250px);
+}
+.image6 {
+  transform: rotateY(240deg) translateZ(250px);
+}
+.image7 {
+  transform: rotateY(280deg) translateZ(250px);
+}
+.image8 {
+  transform: rotateY(320deg) translateZ(250px);
+}
+
+@keyframes animate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
